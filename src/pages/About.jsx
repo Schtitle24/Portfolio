@@ -2,20 +2,9 @@ export default function About() {
   return (
     <div className="text-center">
       <h1>About Me</h1>
+      <img src="src/assets/logo.jpg"></img>
       <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
+        Howdy! It is a pleasure to meet you! My name is Winston and I am an aspiring junior developer! I am soon to graduate from University of Texas' tech bootcamp on the MERN stack and excited to get out into the world to solve problems. I am currently working on a passion project concerning the Meow Wolf exhibits (unsponsored of course) and can't wait for it to get done so I can add it here to show you! In the meantime feel free to poke around some of the applications I was able to create in my time in the bootcamp. 
       </p>
     </div>
   );

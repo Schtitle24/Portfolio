@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="text-center">
+    <div className="text-center mt-4">
       <h1>Contact Page</h1>
       <form action="/submit-form" method="POST">
         <div className="mb-3">

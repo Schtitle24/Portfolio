@@ -10,7 +10,7 @@ export default function Portfolio() {
   const [hoveredIndex6, setHoveredIndex6] = useState(false);
 
   return (
-    <div className="row">
+    <div className="row mt-4">
       <div className="col-md-4 mb-4">
         <div
           className="card text-bg-dark"

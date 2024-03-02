@@ -21,9 +21,9 @@ export default function Portfolio() {
           <div className="card-img-overlay">
             {hoveredIndex1 && (
               <div>
-                <h5 className="card-title">Card title 1</h5>
-                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p className="card-text"><small>Last updated 3 mins ago</small></p>
+                <h5 className="card-title">Simple Recipe Finder</h5>
+                <p className="card-text">This was my first project working with API calls.</p>
+                <p className="card-text"><small>Still In Progress</small></p>
               </div>
             )}
           </div>
@@ -35,13 +35,13 @@ export default function Portfolio() {
           onMouseEnter={() => setHoveredIndex2(true)}
           onMouseLeave={() => setHoveredIndex2(false)}
         >
-          <img src="src/assets/logo.jpg" className="card-img" alt="Project 2" />
+          <img src="src/assets/appa3.jpg" className="card-img" alt="Project 2" />
           <div className="card-img-overlay">
             {hoveredIndex2 && (
               <div>
-                <h5 className="card-title">Card title 2</h5>
-                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p className="card-text"><small>Last updated 3 mins ago</small></p>
+                <h5 className="card-title">ReadMe Generator</h5>
+                <p className="card-text">This application allows you to generate a ReadMe for your projects! </p>
+                <p className="card-text"><small>Fully Complete</small></p>
               </div>
             )}
           </div>
@@ -53,13 +53,13 @@ export default function Portfolio() {
           onMouseEnter={() => setHoveredIndex3(true)}
           onMouseLeave={() => setHoveredIndex3(false)}
         >
-          <img src="src/assets/appa2.jpg" className="card-img" alt="Project 3" />
+          <img src="src/assets/appa4.jpg" className="card-img" alt="Project 3" />
           <div className="card-img-overlay">
             {hoveredIndex3 && (
               <div>
-                <h5 className="card-title">Card title 3</h5>
-                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p className="card-text"><small>Last updated 3 mins ago</small></p>
+                <h5 className="card-title">Wolf Pack Puzzle Portal</h5>
+                <p className="card-text">This application is for visitors of the Meow Wolf Grapevine location that wish to hunt down and piece together the hidden storyline.</p>
+                <p className="card-text"><small>In Developement: Soft release 03/30/24</small></p>
               </div>
             )}
           </div>
@@ -71,7 +71,7 @@ export default function Portfolio() {
           onMouseEnter={() => setHoveredIndex4(true)}
           onMouseLeave={() => setHoveredIndex4(false)}
         >
-          <img src="src/assets/appa2.jpg" className="card-img" alt="Project 4" />
+          <img src="src/assets/sherlock.jpg" className="card-img" alt="Project 4" />
           <div className="card-img-overlay">
             {hoveredIndex4 && (
               <div>

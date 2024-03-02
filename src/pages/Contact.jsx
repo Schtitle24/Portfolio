@@ -26,8 +26,9 @@ export default function Contact() {
         </div>
         <button type="submit" className="btn btn-primary">Submit</button>
       </form>
+      <div style={{ marginBottom: '20px' }}></div>
       <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-        <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ width: '90%' }}>YOU ARE SO CLOSE TO HIRING ME! JUST HIT SUBMIT TO FILL THE BAR!</div>
+        <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ width: '90%' }}>YOU ARE SO CLOSE TO HIRING ME! JUST SEND THAT EMAIL TO FILL THE BAR!</div>
       </div>
     </div>
   );
